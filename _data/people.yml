@@ -1,27 +1,18 @@
--   name: Neel Mehta
-    url: https://www.linkedin.com/in/neelmehta18
-    role: Team Lead
-    image: neel-mehta.jpg
--   name: Athena Kan
-    role: Board Member
-    image: athena-kan.jpg
--   name: Brian Sapozhnikov
-    role: Board Member
--   name: Chris Kuang
-    role: Board Member
--   name: Nick Sinai
-    role: Faculty Mentor
--   name: Jack Zhang
-    role: Undergrad
--   name: Erie Meyer
-    role: Faculty Mentor
--   name: Emma Ling
-    role: Undergrad
-    image: emma-ling.jpg
--   name: Alex Giglio
-    role: Undergrad
--   name: Shira Li
-    role: Undergrad
--   name: Estefania Lahera
-    role: Undergrad
-    image: estefania-lahera.jpg
+-   name: Gustavo Maronato
+    # url: https://www.linkedin.com/in/neelmehta18
+    role: Membro
+    image: gustavo-maronato.jpg
+-   name: Vladmir Sicca
+    role: Membro
+    image: vladmir-sicca.jpg
+-   name: Matheus Ávila
+    role: Membro
+    image: matheus-avila.jpg
+-   name: João Luiz Carabetta
+    role: Membro
+-   name: Natan Ferreira
+    image: natan-ferreira.jpg
+    role: Membro
+-   name: Rodolfo
+    role: Mentor
+    image: rodolfo-jardim.jpg

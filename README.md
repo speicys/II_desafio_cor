@@ -1,4 +1,4 @@
-# [Harvard Open Data Project](http://harvard-open-data-project.github.io/)
+# [Unicamp Open Data Project](http://harvard-open-data-project.github.io/)
 
 ## About us
 

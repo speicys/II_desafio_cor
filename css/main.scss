@@ -138,3 +138,24 @@ body {
     background: url('/img/pforzheimer-house.jpg');
     min-height: 400px;
 }
+
+
+/* Transparência Colors */
+.navbar-red {
+    background-color: #ab1a1a;
+    border-color: #941818;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #ab1a1a;
+    border-color: #941818;
+}
+
+.text-primary {
+    color: #ab1a1a;
+}
+
+.navbar-red .navbar-nav>.active>a, .navbar-red .navbar-nav>.active>a:hover, .navbar-red .navbar-nav>.active>a:focus {
+    background-color: #941818;
+}

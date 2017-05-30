@@ -1,24 +1,24 @@
--   name: Academics
+-   name: Acadêmico
     slug: academics
     icon: graduation-cap
--   name: Admissions
+-   name: Vestibular
     slug: admissions
     icon: pencil-square-o
 -   name: Campus
     slug: campus
     icon: university
--   name: Faculty + Staff
+-   name: Funcionários
     slug: faculty-staff
     icon: users
--   name: Finances
+-   name: Finanças
     slug: finances
     icon: usd
--   name: Library
+-   name: Bibliotecas
     slug: library
     icon: book
--   name: Safety
+-   name: Segurança
     slug: safety
     icon: lock
--   name: Student Life
+-   name: Vida estudantil
     slug: student-life
     icon: id-card

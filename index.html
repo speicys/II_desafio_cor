@@ -11,16 +11,16 @@ styles:
 
     <div class="title">
         <!-- <h2 class="text-white lead"><em>The Harvard Open Data Project presents</em></h2> -->
-      <h1 class="text-white">Harvard's First Open Data Catalog</h1>
+      <h1 class="text-white">Catálogo de dados da Unicamp</h1>
     </div>
 
     <form action="/catalog/index.html" method="GET">
       <div class="input-group input-group-lg">
-        <input type="text" id="catalog-search-text" class="form-control" name="q" placeholder="Search for Harvard open datasets">
+        <input type="text" id="catalog-search-text" class="form-control" name="q" placeholder="Pesquise datasets da Unicamp">
         <span class="input-group-btn">
           <button class="btn btn-primary">
               <i class="fa fa-search"></i>
-              Search
+              Pesquisar
           </button>
       </span>
       </div>
@@ -31,7 +31,7 @@ styles:
 <br/>
 
 <div class="container">
-  <h2 class="page-header text-centered">Categories</h2>
+  <h2 class="page-header text-centered">Categorias</h2>
   <div class="row">
       {% for category in site.data.categories %}
       <div class="col-xs-6 col-sm-3">
@@ -49,7 +49,7 @@ styles:
 
 
     <div class="row">
-        <h2 class="page-header text-centered">Featured Datasets</h2>
+        <h2 class="page-header text-centered">Datasets destacados</h2>
         {% for dataset in site.data.featured %}
             <div class="col-md-4">
                 <a href="{{ dataset.url }}">
