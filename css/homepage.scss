@@ -8,7 +8,7 @@ nav.navbar {
 }
 
 #backdrop {
-    background-image: url('/img/backgrounds/cb.jpg');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/cb.jpg');
     background-position: 50% 70%;
     min-height: 500px;
     background-size: cover;

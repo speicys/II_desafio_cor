@@ -18,7 +18,7 @@ title: Transparência Unicamp
 description: >
     O Transparência Unicamp é um projeto de alunos para promover o acesso a dados públicos da Unicamp.
 baseurl: "/transparencia-data-catalog" # the subpath of your site, e.g. /blog
-url: "https://maronato.github.io/transparencia-data-catalog" # the base hostname & protocol for your site
+url: "https://maronato.github.io" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 # github_username:  jekyll
 

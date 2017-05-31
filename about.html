@@ -41,7 +41,7 @@ permalink: /about/
 
         <p>
 
-          Aos moldes de <a href="https://data.gov">data.gov</a>, nós estamos <a href="/catalog">coletando e disponibilizando os dados da Unicamp</a>. Com isso, nós promovemos transparência e acesso aos dados que podem melhorar a vida no campus.
+          Aos moldes de <a href="https://data.gov">data.gov</a>, nós estamos <a href="{{ site.baseurl }}/catalog">coletando e disponibilizando os dados da Unicamp</a>. Com isso, nós promovemos transparência e acesso aos dados que podem melhorar a vida no campus.
         </p>
 
         <!-- <h4>Featured datasets</h4>
@@ -177,9 +177,9 @@ permalink: /about/
           <div class="media-left">
             <a href="{{ person.url }}">
               {% if person.image %}
-                  <img src="/img/people/{{ person.image }}" class="media-object img-circle" alt="{{ person.name }}" style="width: 64px;" />
+                  <img src="{{ site.baseurl }}/img/people/{{ person.image }}" class="media-object img-circle" alt="{{ person.name }}" style="width: 64px;" />
               {% else %}
-                  <img src="/img/people/generic.jpg" class="media-object img-circle" alt="{{ person.name }}" style="width: 64px;" />
+                  <img src="{{ site.baseurl }}/img/people/generic.jpg" class="media-object img-circle" alt="{{ person.name }}" style="width: 64px;" />
               {% endif %}
             </a>
           </div>

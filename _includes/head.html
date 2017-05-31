@@ -19,13 +19,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
 
     <!-- Custom styles for each page -->
     {% for style in page.styles %}
-        <link rel="stylesheet" href="{{style}}">
+        <link rel="stylesheet" href="{{ site.baseurl }}{{style}}">
     {% endfor %}
 
 
-    <link rel="icon" type="image/png" href="/img/squarelogo.png">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/img/squarelogo.png">
 </head>

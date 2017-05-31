@@ -14,7 +14,7 @@ styles:
       <h1 class="text-white">Catálogo de dados da Unicamp</h1>
     </div>
 
-    <form action="/catalog/index.html" method="GET">
+    <form action="{{ site.baseurl }}/catalog/index.html" method="GET">
       <div class="input-group input-group-lg">
         <input type="text" id="catalog-search-text" class="form-control" name="q" placeholder="Pesquise datasets da Unicamp">
         <span class="input-group-btn">
@@ -35,7 +35,7 @@ styles:
   <div class="row">
       {% for category in site.data.categories %}
       <div class="col-xs-6 col-sm-3">
-          <a href="/catalog/index.html?category={{ category.slug }}">
+          <a href="{{ site.baseurl }}/catalog/index.html?category={{ category.slug }}">
             <div class="panel panel-default">
               <div class="panel-body">
                 <p class="text-center text-primary"><i class="fa fa-4x fa-{{ category.icon }}"></i></p>
