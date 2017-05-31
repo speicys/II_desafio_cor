@@ -1,4 +1,4 @@
-# [Unicamp Open Data Project](http://harvard-open-data-project.github.io/)
+# [Unicamp Open Data Project](https://maronato.github.io/transparencia-data-catalog/)
 
 ## Running the website
 
