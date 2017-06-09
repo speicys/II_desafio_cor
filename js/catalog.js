@@ -285,7 +285,8 @@ Searcher.prototype.updateCatalog = function(displayData) {
         .append("p")
             .attr("class", "label label-info")
             .text(function(d){
-                return d.category.replace("-", " ").replace(/\b\w/g, l => l.toUpperCase());
+                console.log(d.category);
+                return d.category.replace("-", " ").replace(/(^|\s)[a-z\u00E0-\u00FC]/g, l => l.toUpperCase());
             });
 
     // tags
