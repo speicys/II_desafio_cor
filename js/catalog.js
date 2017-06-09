@@ -19,14 +19,16 @@ d3.csv("/transparencia-data-catalog/assets/harvard-open-data-catalog.csv", funct
     var searchTerm = getURLParameter("q");
     var searchCategory = getURLParameter("category");
     var searchType = getURLParameter("type");
+    var searchTags = getURLParameter("tags");
 
-    if (searchTerm || searchCategory || searchType) {
+    if (searchTerm || searchCategory || searchType || searchTags) {
         // run search
 
         searcher.setParameters({
             term: searchTerm,
             category: searchCategory,
-            type: searchType
+            type: searchType,
+            tags: searchTags
         });
 
         // put into search bar
@@ -97,7 +99,8 @@ function searchCatalog(query, allData) {
         if (query.text) {
             query.text = query.text.toLowerCase();
             if (d.title.toLowerCase().indexOf(query.text) < 0
-                && d.description.toLowerCase().indexOf(query.text) < 0) {
+                && d.description.toLowerCase().indexOf(query.text) < 0
+                && d.tags.toLowerCase().indexOf(query.text) < 0) {
                     return false;
             }
         }
@@ -109,6 +112,11 @@ function searchCatalog(query, allData) {
 
         // search on category (exact match!!)
         if (query.category && d.category !== query.category) {
+            return false;
+        }
+
+        // search on tags (exact match!!)
+        if (query.tags && d.tags !== query.tags) {
             return false;
         }
 
@@ -137,11 +145,12 @@ function getURLParameter(name) {
  * @param  {String} category one in the enumeration of categories to filter by (academics, etc)
  * @param  {String} type     one in the enumeration of filetypes (pdf, csv, etc)
  */
-var Searcher = function(data, term, category, type) {
+var Searcher = function(data, term, category, type, tags) {
     this.data = data;
     this.term = term;
     this.category = category;
     this.type = type;
+    this.tags = tags;
 }
 
 Searcher.prototype.setParameters = function(parameters) {
@@ -156,6 +165,9 @@ Searcher.prototype.setParameters = function(parameters) {
     }
     if (parameters.type !== undefined && parameters.type !== null) {
         this.type = parameters.type;
+    }
+    if (parameters.tags !== undefined && parameters.tags !== null) {
+        this.tags = parameters.tags;
     }
 
     // now run a search
@@ -177,7 +189,8 @@ Searcher.prototype.runSearch = function() {
         // search on term (contains)
         if (self.term) {
             if (d.title.toLowerCase().indexOf(self.term) < 0
-                && d.description.toLowerCase().indexOf(self.term) < 0) {
+                && d.description.toLowerCase().indexOf(self.term) < 0
+                && d.tags.toLowerCase().indexOf(self.term) < 0) {
                     return false;
             }
         }
@@ -189,6 +202,11 @@ Searcher.prototype.runSearch = function() {
 
         // search on category (exact match!!)
         if (self.category && d.category !== self.category) {
+            return false;
+        }
+
+        // search on tags (exact match!!)
+        if (self.tags && d.tags !== self.tags) {
             return false;
         }
 
