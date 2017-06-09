@@ -159,3 +159,25 @@ body {
 .navbar-red .navbar-nav>.active>a, .navbar-red .navbar-nav>.active>a:hover, .navbar-red .navbar-nav>.active>a:focus {
     background-color: #941818;
 }
+
+/* Transparência tags */
+p.label {
+    margin-right: 5px;
+}
+
+
+body {
+    font-family: "Roboto", Arial, sans-serif;
+   /*   // Safari for OS X and iOS (San Francisco)
+      -apple-system,
+      // Chrome >= 56 for OS X (San Francisco), Windows, Linux and Android
+      system-ui,
+      // Chrome < 56 for OS X (San Francisco)
+      BlinkMacSystemFont,
+      // Windows
+      "Segoe UI",
+      // Android
+      "Roboto",
+      // Basic web fallback
+      "Helvetica Neue", Arial, sans-serif !default;*/
+}
