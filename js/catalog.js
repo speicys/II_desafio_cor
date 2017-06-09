@@ -278,20 +278,30 @@ Searcher.prototype.updateCatalog = function(displayData) {
                 return d.type ? (downloadString + " (" + d.type + ")") : downloadString;
         });
 
-    // categories
+
+    // category
     catalogBody.append("div")
         .attr("class", "col-sm-12 pull")
         .append("p")
             .attr("class", "label label-info")
             .text(function(d){
-                return d.category;
+                return d.category.replace("-", " ").replace(/\b\w/g, l => l.toUpperCase());
             });
 
-    // label with type
-    // catalogBody.append("span")
-    //     .attr("class", "text text-muted ")
-    //     .text(function(d) {
-    //         return "  " + d.type;
-    //     });
-
+    // tags
+    catalogBody.append("div")
+        .attr("class", "col-sm-12 pull")
+        .html(function(d) {
+            var li = ""
+            var tags = d.tags.split(" ");
+            var n_tags = new Set;
+            for (var i = tags.length - 1; i >= 0; i--) {
+                n_tags.add(tags[i].split(",")[0].toLowerCase());
+            }
+            var nn_tags = Array.from(n_tags).slice(0, 5);
+            for (var i = nn_tags.length - 1; i >= 0; i--) {
+                li += '<p class="label label-danger">' + nn_tags[i] + '</p>';
+            }
+            return li;
+        });
 }
