@@ -7,6 +7,9 @@
 -   name: Campus
     slug: campus
     icon: university
+-   name: Transporte
+    slug: transporte
+    icon: bus
 -   name: Funcionários
     slug: funcionários
     icon: users
