@@ -2,57 +2,58 @@
 layout: default
 
 styles:
-    - /css/homepage.css
+- /css/homepage.css
 ---
 
-<div id="backdrop">
-  <div class="container">
+<div class="backdrop">
+    <div class="search_">
+        <div class="container">
 
 
-    <div class="title">
-        <!-- <h2 class="text-white lead"><em>The Harvard Open Data Project presents</em></h2> -->
-      <h1 class="text-white">Catálogo de dados da Unicamp</h1>
+            <div class="title">
+                <!-- <h2 class="text-white lead"><em>The Harvard Open Data Project presents</em></h2> -->
+                <h1 class="text-white">Catálogo de dados da Unicamp</h1>
+            </div>
+
+            <form action="{{ site.baseurl }}/catalog/index.html" method="GET">
+                <div class="input-group input-group-lg">
+                    <input type="text" id="catalog-search-text" class="form-control" name="q" placeholder="Pesquise datasets da Unicamp">
+                    <span class="input-group-btn">
+                        <button class="btn btn-primary">
+                            <i class="fa fa-search"></i>
+                            Pesquisar
+                        </button>
+                    </span>
+                </div>
+            </form>
+        </div>
     </div>
-
-    <form action="{{ site.baseurl }}/catalog/index.html" method="GET">
-      <div class="input-group input-group-lg">
-        <input type="text" id="catalog-search-text" class="form-control" name="q" placeholder="Pesquise datasets da Unicamp">
-        <span class="input-group-btn">
-          <button class="btn btn-primary">
-              <i class="fa fa-search"></i>
-              Pesquisar
-          </button>
-      </span>
-      </div>
-    </form>
-  </div>
 </div>
-
 <br/>
 
 <div class="container">
-  <h2 class="page-header text-centered">Categorias</h2>
-  <div class="row">
-      {% for category in site.data.categories %}
-      <div class="col-xs-6 col-sm-3">
-          <a href="{{ site.baseurl }}/catalog/index.html?category={{ category.slug }}">
-            <div class="panel panel-default">
-              <div class="panel-body">
-                <p class="text-center text-primary"><i class="fa fa-4x fa-{{ category.icon }}"></i></p>
-                <h2 class="text-center lead">{{ category.name }}</h2>
-              </div>
-            </div>
-          </a>
-      </div>
-      {% endfor %}
-  </div>
+    <h2 class="page-header text-centered">Categorias</h2>
+    <div class="row">
+        {% for category in site.data.categories %}
+        <div class="col-xs-6 col-sm-3">
+            <a href="{{ site.baseurl }}/catalog/index.html?category={{ category.slug }}">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <p class="text-center text-primary"><i class="fa fa-4x fa-{{ category.icon }}"></i></p>
+                        <h2 class="text-center lead">{{ category.name }}</h2>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
 
 
     <div class="row">
         <h2 class="page-header text-centered">Datasets destacados</h2>
         {% for dataset in site.data.featured %}
-            <div class="col-md-4">
-                <a href="{{ dataset.url }}">
+        <div class="col-md-4">
+            <a href="{{ dataset.url }}">
                 <div class="thumbnail">
                     <img src="{{ dataset.imgsrc }}" class="img-thumbnail img-responsive" alt="{{ dataset.name }}" />
                     <div class="caption">
@@ -61,8 +62,8 @@ styles:
                         </p>
                     </div>
                 </div>
-                </a>
-            </div>
+            </a>
+        </div>
         {% endfor %}
     </div>
 
