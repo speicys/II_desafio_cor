@@ -4,12 +4,27 @@
 @charset "utf-8";
 
 nav.navbar {
-    margin-bottom: 0 !important;
+    margin-bottom: -60px !important;
+    padding-bottom: -100;
 }
 
-#backdrop {
-    background-image: url('{{ site.baseurl }}/img/backgrounds/cb.jpg');
-    background-position: 50% 70%;
-    min-height: 500px;
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.search_ {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.backdrop {
+    background-image: url('{{ site.baseurl }}/img/backgrounds/cb_aereo.jpg');
+    background-position: center center;
+    height: 100%;
     background-size: cover;
 }
