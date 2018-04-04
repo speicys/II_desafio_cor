@@ -12,12 +12,12 @@ styles:
 
             <div class="title">
                 <!-- <h2 class="text-white lead"><em>The Harvard Open Data Project presents</em></h2> -->
-                <h1 class="text-white">Catálogo de dados da Unicamp</h1>
+                <h1 class="text-white">Hackathon de Mobilidade Urbana</h1>
             </div>
 
             <form action="{{ site.baseurl }}/catalog/index.html" method="GET">
                 <div class="input-group input-group-lg">
-                    <input type="text" id="catalog-search-text" class="form-control" name="q" placeholder="Pesquise datasets da Unicamp">
+                    <input type="text" id="catalog-search-text" class="form-control" name="q" placeholder="Procurar por base de dados">
                     <span class="input-group-btn">
                         <button class="btn btn-primary">
                             <i class="fa fa-search"></i>
@@ -48,23 +48,9 @@ styles:
         {% endfor %}
     </div>
 
+<br>
+<br>
 
-    <div class="row">
-        <h2 class="page-header text-centered">Datasets destacados</h2>
-        {% for dataset in site.data.featured %}
-        <div class="col-md-4">
-            <a href="{{ dataset.url }}">
-                <div class="thumbnail">
-                    <img src="{{ dataset.imgsrc }}" class="img-thumbnail img-responsive" alt="{{ dataset.name }}" />
-                    <div class="caption">
-                        <p>
-                            <h2 class="text-center lead">{{ dataset.name }}</h2>
-                        </p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        {% endfor %}
-    </div>
+    Fork do projeto <a href="https://github.com/Maronato/transparencia-data-catalog">transparencia-data-catalog</a> da Unicamp.
 
 </div>

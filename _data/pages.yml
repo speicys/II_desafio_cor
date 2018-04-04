@@ -1,15 +1,9 @@
 main:
     -   name: Início
         url: /
-    -   name: Sobre
-        url: /about/
-    # -   name: Get Involved
-    #     url: /get_involved
+#    -   name: Sobre
+#        url: /about/
     -   name: Catálogo
         url: /catalog/
     -   name: GitHub
-        url: https://github.com/Maronato/transparencia-data-catalog
-    -   name: Blog
-        url: https://medium.com/transpar%C3%AAncia-unicamp
-    # -   name: Mailing List
-    #     url: https://groups.google.com/forum/#!forum/harvard-open-data
+        url: https://github.com/jmfly/hackemtu-data-catalog

@@ -27,3 +27,5 @@ _site
 
 # Compiled Gemfile
 Gemfile.lock
+
+.idea/
