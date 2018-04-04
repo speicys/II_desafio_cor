@@ -1,27 +1,24 @@
--   name: Acadêmico
-    slug: acadêmico
-    icon: graduation-cap
--   name: Vestibular
-    slug: vestibular
-    icon: pencil-square-o
--   name: Campus
-    slug: campus
-    icon: university
--   name: Transporte
-    slug: transporte
+-   name: EMTU
+    slug: emtu
     icon: bus
--   name: Funcionários
-    slug: funcionários
+-   name: SPTrans
+    slug: sptrans
+    icon: bus
+-   name: EMDEC
+    slug: emdec
+    icon: pencil-square-o
+-   name: SEADE
+    slug: seade
     icon: users
--   name: Finanças
-    slug: finanças
-    icon: usd
--   name: Bibliotecas
-    slug: bibliotecas
-    icon: book
--   name: Segurança
-    slug: segurança
-    icon: lock
--   name: Vida estudantil
-    slug: vida-estudantil
-    icon: id-card
+-   name: Scipopulis
+    slug: Scipopulis
+    icon: bus
+-   name: Unicamp
+    slug: Unicamp
+    icon: graduation-cap
+-   name: Outros
+    slug: outros
+    icon: university
+-   name: Prefeitura SP
+    slug: prefeiturasp
+    icon: university

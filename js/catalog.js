@@ -274,6 +274,7 @@ Searcher.prototype.updateCatalog = function(displayData) {
             })
             .attr("class", "btn btn-primary pull-right")
             .text(function(d){
+                if (d.type == "HTML") { return "Acessar";}
                 var downloadString = "Download";
                 return d.type ? (downloadString + " (" + d.type + ")") : downloadString;
         });
