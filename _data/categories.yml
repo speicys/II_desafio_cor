@@ -1,24 +1,24 @@
 -   name: EMTU
     slug: emtu
     icon: bus
--   name: SPTrans
-    slug: sptrans
-    icon: bus
 -   name: EMDEC
     slug: emdec
     icon: pencil-square-o
+-   name: Unicamp
+    slug: Unicamp
+    icon: graduation-cap
+-   name: Prefeitura SP
+    slug: prefeiturasp
+    icon: university
+-   name: SPTrans
+    slug: sptrans
+    icon: bus
 -   name: SEADE
     slug: seade
     icon: users
 -   name: Scipopulis
     slug: Scipopulis
-    icon: bus
--   name: Unicamp
-    slug: Unicamp
-    icon: graduation-cap
+    icon: server
 -   name: Outros
     slug: outros
-    icon: university
--   name: Prefeitura SP
-    slug: prefeiturasp
-    icon: university
+    icon: archive

@@ -3,6 +3,16 @@ Circular Interno,"Rotas, paradas e estimativa de horário do Circular interno.",
 Cardápio de hoje dos Restaurantes Universitários (Bandecos),"Cardápio do café-da-manhã (RU), almoço tradicional (RU, RA, RS) e vegetariano (RS) e jantar tradicional (RU, RA, RS) e vegetariano (RS) nos restaurantes universitários no campus de Campinas.","restaurante, cardapio, vida-estudantil",10/30/15,Unicamp,,,http://www.prefeitura.unicamp.br/servicos/divisao-de-alimentacao/cardapio-dos-restaurantes,,,"menus and nutritional information is presented on website and is not structured, open data (yet!)",HTML,,unicamp
 Rotas do circular interno,Mapa dos circulares contendo os pontos de parada.,"transporte,mapa, shape",10/30/15,Unicamp,,,http://www.prefeitura.unicamp.br/servicos/diretoria-de-servicos-de-transporte/mapa-circulares,http://www.prefeitura.unicamp.br/servicos/diretoria-de-servicos-de-transporte/mapa-circulares,,,HTML,,unicamp
 ,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+EMTU - dados abertos,"Diversos dados abertos da Empresa Metropolitana de Transportes Urbanos de São Paulo. GTFS (rede de transporte), API - dados online de posicionamento dos ônibus (GPS), Dados Operacionais, Sistema Ligado - EMTU, Ocorrências Operacionais, Bilhetagem Eletrônica, CAC e Ouvidoria","transporte, diversos",,EMTU,,,http://www.emtu.sp.gov.br/emtu/dados-abertos/dados-abertos-principal/acesse-os-dados-abertos.fss,,,,HTML,,emtu
+EMTU - GTFS (rede transporte),"A EMTU disponibiliza os dados operacionais dos ônibus metropolitanos atuantes nas cinco das seis regiões metropolitanas do Estado de São Paulo, via GTFS (General Transit Feed Specification ) - a Região Metropolitana de Ribeirão Preto está em fase de implantação. Para download do arquivo é necessário cadastro prévio. Após concluir o processo você receberá um e-mail de confirmação com um link para validação e liberação do acesso. É importante manter os dados cadastrais atualizados e nos informar qual o seu objetivo em manusear os referidos dados. Teremos espaço exclusivo em nosso site para a divulgação de produtos ou ações desenvolvidas a partir dados do sistema metropolitano de transportes","transporte,rede,gtfs",,EMTU,,,http://www.emtu.sp.gov.br/emtu/dados-abertos/dados-abertos-principal/gtfs.fss,,,(necessário cadastro),,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
 Dados SICOP - consolidados de passagens por linha - out/2016,,"transporte,passageiros",10/2016,EMTU - sicop,,,https://onedrive.live.com/?authkey=%21AOoF1qWpaO67vnc&cid=166A4B8DDB6B8E0F&id=166A4B8DDB6B8E0F%21162582&parId=166A4B8DDB6B8E0F%21162351&o=OneUp,,,,csv,,emtu
 Dados SICOP - consolidados de passagens por linha - out/2017,,"transporte,passageiros",10/2017,EMTU - sicop,,,https://onedrive.live.com/?authkey=%21AOoF1qWpaO67vnc&cid=166A4B8DDB6B8E0F&id=166A4B8DDB6B8E0F%21162583&parId=166A4B8DDB6B8E0F%21162351&o=OneUp,,,,csv,,emtu
 Dados passageiros por viagem - BLT,,"transporte,passageiros",out/16 e out/2017,EMTU,,,https://onedrive.live.com/view.aspx?cid=166a4b8ddb6b8e0f&page=view&resid=166A4B8DDB6B8E0F!162409&parId=166A4B8DDB6B8E0F!162351&authkey=!AOoF1qWpaO67vnc&app=Excel,,,,csv,,emtu
@@ -48,8 +58,8 @@ Painel das Profissões,"Informações sobre profissões, formação profissional
 Indicadores Sebrae-SP de Conjuntura,"Pesquisa sobre faturamento e expectativas das micro e pequenas empresas e dos microempreendedores individuais, em parceria com o Sebrae-SP",,,seade,,,"http://www.sebrae.com.br/sites/PortalSebrae/ufs/sp/sebraeaz/indicadores-sebrae-em-sao-paulo,5508794363447510VgnVCM1000004c00210aRCRD",,,,,,seade
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,outros
-IPT - dados ambiente (principal),,,,DataGEO,,,http://datageo.ambiente.sp.gov.br/,,,,,,outros
-IPT - dados mapeamento,,,,DataGEO,,,http://datageo.ambiente.sp.gov.br/coffey?_48_INSTANCE_KDzpt1cNV1RS_iframe_text=ipt&enviar=Consultar&p_p_id=48_INSTANCE_KDzpt1cNV1RS&_48_INSTANCE_KDzpt1cNV1RS_iframe_avancado=false#_48_INSTANCE_KDzpt1cNV1RS_%3Dhttp%253A%252F%252Fdatageo.ambiente.sp.gov.br%252Fgeoportal%252Fcatalog%252Fsearch%252Fsearch.page%253Favancado%253Dfalse%2526text%253Dipt,,,,,,outros
+DataGEO - dados ambiente (principal),,,,DataGEO,,,http://datageo.ambiente.sp.gov.br/,,,,,,outros
+DataGEO - dados mapeamento,,,,DataGEO,,,http://datageo.ambiente.sp.gov.br/coffey?_48_INSTANCE_KDzpt1cNV1RS_iframe_text=ipt&enviar=Consultar&p_p_id=48_INSTANCE_KDzpt1cNV1RS&_48_INSTANCE_KDzpt1cNV1RS_iframe_avancado=false#_48_INSTANCE_KDzpt1cNV1RS_%3Dhttp%253A%252F%252Fdatageo.ambiente.sp.gov.br%252Fgeoportal%252Fcatalog%252Fsearch%252Fsearch.page%253Favancado%253Dfalse%2526text%253Dipt,,,,,,outros
 CPRM (principal),,,,CPRM,,,http://www.cprm.gov.br/,,,,,,outros
 CPRM,,,,CPRM,,,http://www.cprm.gov.br/publique/Gestao-Territorial/Geologia-de-Engenharia-e-Riscos-Geologicos/Cartas-de-Suscetibilidade-a-Movimentos-Gravitacionais-de-Massa-e-Inundacoes-3507.html,,,,,,outros
 IDESP (principal),,,,IDESP,,,http://www.idesp.sp.gov.br/,,,,,,outros
