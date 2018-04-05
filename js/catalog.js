@@ -5,9 +5,9 @@ var searcher;
 
 d3.csv("/hackemtu-data-catalog/assets/hackemtu-data-catalog.csv", function callback(data){
     // sort data by title
-    data.sort(function(a, b) {
-        return a.title > b.title;
-    });
+   // data.sort(function(a, b) {
+   //     return a.title > b.title;
+   // });
 
     // create a new Searcher object to store all this
     searcher = new Searcher(data);
