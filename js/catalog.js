@@ -286,7 +286,6 @@ Searcher.prototype.updateCatalog = function(displayData) {
         .append("p")
             .attr("class", "label label-info")
             .text(function(d){
-                console.log(d.category);
                 return d.category.replace("-", " ").replace(/(^|\s)[a-z\u00E0-\u00FC]/g, l => l.toUpperCase());
             });
 

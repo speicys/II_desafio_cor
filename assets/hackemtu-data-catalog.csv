@@ -2,42 +2,33 @@ title,description,tags,last_update,publisher,contact_nam,contact_email,url,direc
 Circular Interno,"Rotas, paradas e estimativa de horário do Circular interno.",transporte,,Unicamp,,,http://www.prefeitura.unicamp.br/servicos/diretoria-de-servicos-de-transporte/busca-circulares,,,,API,,unicamp
 Cardápio de hoje dos Restaurantes Universitários (Bandecos),"Cardápio do café-da-manhã (RU), almoço tradicional (RU, RA, RS) e vegetariano (RS) e jantar tradicional (RU, RA, RS) e vegetariano (RS) nos restaurantes universitários no campus de Campinas.","restaurante, cardapio, vida-estudantil",10/30/15,Unicamp,,,http://www.prefeitura.unicamp.br/servicos/divisao-de-alimentacao/cardapio-dos-restaurantes,,,"menus and nutritional information is presented on website and is not structured, open data (yet!)",HTML,,unicamp
 Rotas do circular interno,Mapa dos circulares contendo os pontos de parada.,"transporte,mapa, shape",10/30/15,Unicamp,,,http://www.prefeitura.unicamp.br/servicos/diretoria-de-servicos-de-transporte/mapa-circulares,http://www.prefeitura.unicamp.br/servicos/diretoria-de-servicos-de-transporte/mapa-circulares,,,HTML,,unicamp
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-EMTU - dados abertos,"Diversos dados abertos da Empresa Metropolitana de Transportes Urbanos de São Paulo. GTFS (rede de transporte), API - dados online de posicionamento dos ônibus (GPS), Dados Operacionais, Sistema Ligado - EMTU, Ocorrências Operacionais, Bilhetagem Eletrônica, CAC e Ouvidoria","transporte, diversos",,EMTU,,,http://www.emtu.sp.gov.br/emtu/dados-abertos/dados-abertos-principal/acesse-os-dados-abertos.fss,,,,HTML,,emtu
-EMTU - GTFS (rede transporte),"A EMTU disponibiliza os dados operacionais dos ônibus metropolitanos atuantes nas cinco das seis regiões metropolitanas do Estado de São Paulo, via GTFS (General Transit Feed Specification ) - a Região Metropolitana de Ribeirão Preto está em fase de implantação. Para download do arquivo é necessário cadastro prévio. Após concluir o processo você receberá um e-mail de confirmação com um link para validação e liberação do acesso. É importante manter os dados cadastrais atualizados e nos informar qual o seu objetivo em manusear os referidos dados. Teremos espaço exclusivo em nosso site para a divulgação de produtos ou ações desenvolvidas a partir dados do sistema metropolitano de transportes","transporte,rede,gtfs",,EMTU,,,http://www.emtu.sp.gov.br/emtu/dados-abertos/dados-abertos-principal/gtfs.fss,,,(necessário cadastro),,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-Dados SICOP - consolidados de passagens por linha - out/2016,,"transporte,passageiros",10/2016,EMTU - sicop,,,https://onedrive.live.com/?authkey=%21AOoF1qWpaO67vnc&cid=166A4B8DDB6B8E0F&id=166A4B8DDB6B8E0F%21162582&parId=166A4B8DDB6B8E0F%21162351&o=OneUp,,,,csv,,emtu
-Dados SICOP - consolidados de passagens por linha - out/2017,,"transporte,passageiros",10/2017,EMTU - sicop,,,https://onedrive.live.com/?authkey=%21AOoF1qWpaO67vnc&cid=166A4B8DDB6B8E0F&id=166A4B8DDB6B8E0F%21162583&parId=166A4B8DDB6B8E0F%21162351&o=OneUp,,,,csv,,emtu
-Dados passageiros por viagem - BLT,,"transporte,passageiros",out/16 e out/2017,EMTU,,,https://onedrive.live.com/view.aspx?cid=166a4b8ddb6b8e0f&page=view&resid=166A4B8DDB6B8E0F!162409&parId=166A4B8DDB6B8E0F!162351&authkey=!AOoF1qWpaO67vnc&app=Excel,,,,csv,,emtu
-,,,,,,,,,,,,,
+EMTU - Dados abertos,"Diversos dados abertos da Empresa Metropolitana de Transportes Urbanos de São Paulo. GTFS (rede de transporte), API - dados online de posicionamento dos ônibus (GPS), Dados Operacionais, Sistema Ligado - EMTU, Ocorrências Operacionais, Bilhetagem Eletrônica, CAC e Ouvidoria","transporte, diversos",,EMTU,,,http://www.emtu.sp.gov.br/emtu/dados-abertos/dados-abertos-principal/acesse-os-dados-abertos.fss,,,,HTML,,emtu
+EMTU - GTFS (rede transporte),GTFS (General Transit Feed Specification ) - a Região Metropolitana de Ribeirão Preto está em fase de implantação.,"transporte,rede,gtfs",,EMTU,,,http://www.emtu.sp.gov.br/emtu/dados-abertos/dados-abertos-principal/gtfs.fss,,,Para download do arquivo é necessário cadastro prévio.,csv,cadastro,emtu
+EMTU - GPS (API tempo real),Monitoramento online dos ônibus metropolitanos do Estado de São Paulo,"transporte,gps,tempo-real",tempo real,EMTU,,,http://www.emtu.sp.gov.br/emtu/dados-abertos/dados-abertos-principal/api.fss,,,Para download do arquivo é necessário cadastro prévio.,API,cadastro,emtu
+EMTU - Cartões/Bilhetagem,Dados consolidados sobre a bilhetagem eletrônica do sistema metropolitano de ônibus e de VLT nas Regiões Metropolitanas de São Paulo e da Baixada Santista.,"transporte,bilhetagem,consolidado",,EMTU/Autopass,,,http://www.emtu.sp.gov.br/emtu/dados-abertos/dados-abertos-principal/bilhetagem-eletronica.fss,,,,Excel,,emtu
+EMTU - Dados operacionais,"Informações dos dados operacionais do sistema metropolitano de ônibus em operação nas cinco das seis regiões metropolitanas do Estado de São Paulo – A Região de Ribeirão Preto está em implantação. Estão disponíveis: nome das empresas, tipo de sistema (regular e fretamento), tipo de veículo, prefixos, placas e a região em que atuam.","transporte,dados-operacionais",,EMTU,,,http://www.emtu.sp.gov.br/emtu/dados-abertos/dados-abertos-principal/dados-operacionais.fss,,,Para download do arquivo é necessário cadastro prévio.,Diversos,cadastro,emtu
+EMTU - Ocorrências operacionais,"Por meio da API (Application Programming Interface) de ocorrências operacionais poderão ser acessadas informações como: partidas atrasadas; partidas não realizadas; incidentes (falha em escadas rolantes em terminais, paralisações no itinerário por manifestações, chuva e obras); acidentes sem vitimas (sem a identificação dos envolvidos); acidentes com vitimas (sem a identificação dos envolvidos e letalidade).","transporte,ocorrências,tempo-real",tempo real,EMTU,,,http://www.emtu.sp.gov.br/dadosAbertosEmtu/listaAssuntos.htm?a=lista&grupo=8,,,Para download do arquivo é necessário cadastro prévio.,API,cadastro,emtu
+EMTU - Central atendimento ao cliente,"A Central de Atendimento é o principal canal de comunicação da EMTU. Nesta área estão disponibilizados os registros das diferentes categorias de atendimento, como sugestão, elogio e reclamação.","transporte,sac,atendimento",,EMTU,,,http://www.emtu.sp.gov.br/emtu/dados-abertos/dados-abertos-principal/cac-e-ouvidoria.fss,,,Para download do arquivo é necessário cadastro prévio.,Diversos,cadastro,emtu
+EMTU - Dados SICOP - consolidados de passagens por linha - out/2016,,"transporte,passageiros",10/2016,EMTU - sicop,,,https://onedrive.live.com/?authkey=%21AOoF1qWpaO67vnc&cid=166A4B8DDB6B8E0F&id=166A4B8DDB6B8E0F%21162582&parId=166A4B8DDB6B8E0F%21162351&o=OneUp,,,,csv,,emtu
+EMTU - Dados SICOP - consolidados de passagens por linha - out/2017,,"transporte,passageiros",10/2017,EMTU - sicop,,,https://onedrive.live.com/?authkey=%21AOoF1qWpaO67vnc&cid=166A4B8DDB6B8E0F&id=166A4B8DDB6B8E0F%21162583&parId=166A4B8DDB6B8E0F%21162351&o=OneUp,,,,csv,,emtu
+EMTU - Dados passageiros por viagem - BLT,,"transporte,passageiros",out/16 e out/2017,EMTU,,,https://onedrive.live.com/view.aspx?cid=166a4b8ddb6b8e0f&page=view&resid=166A4B8DDB6B8E0F!162409&parId=166A4B8DDB6B8E0F!162351&authkey=!AOoF1qWpaO67vnc&app=Excel,,,,csv,,emtu
 Bilhetagem Campinas ,Dados de bilhetagem de campinas - outubro/16 -  tamanho 690MB,"transporte, bilhetagem",out/2016,EMDEC,,,https://onedrive.live.com/?authkey=%21AOoF1qWpaO67vnc&cid=166A4B8DDB6B8E0F&id=166A4B8DDB6B8E0F%21162606&parId=166A4B8DDB6B8E0F%21162678&o=OneUp,,,,Excel,,emdec
 Bilhetagem Campinas ,Dados de bilhetagem de campinas - outubro/16 -  tamanho 690MB,"transporte, bilhetagem",out/2017,EMDEC,,,https://onedrive.live.com/?authkey=%21AOoF1qWpaO67vnc&cid=166A4B8DDB6B8E0F&id=166A4B8DDB6B8E0F%21162605&parId=166A4B8DDB6B8E0F%21162678&o=OneUp,,,,Excel,,emdec
 Frota de ônibus de Campinas,Frota de ônibus de Campinas,"transporte, frota-onibus",out/16 e out/17,EMDEC,,,https://onedrive.live.com/?authkey=%21AOoF1qWpaO67vnc&cid=166A4B8DDB6B8E0F&id=166A4B8DDB6B8E0F%21162680&parId=166A4B8DDB6B8E0F%21162679&o=OneUp,,,,Excel,,emdec
 Reclamações/Protocolos - Campinas,,"transporte,protocolo,reclamacoes",out/16 e out/17,EMDEC,,,https://onedrive.live.com/?authkey=%21AOoF1qWpaO67vnc&id=166A4B8DDB6B8E0F%21162683&cid=166A4B8DDB6B8E0F,,,,Diversos,,emdec
 Base cartográfica - Sistema de Informação Geográfica (SIG),"Diversos mapas digitais da cidade de Campinas,SP:  Transporte, linhas de onibus, cadastro vias, ciclovias,ciclofaixas,terminais, radares (formato shape file / qgis)","transporte, linhas-de-onibus, cadastro-vias, faixas, ciclovias,ciclofaixas,terminais,radares",,EMDEC,,,https://onedrive.live.com/?authkey=%21AOoF1qWpaO67vnc&id=166A4B8DDB6B8E0F%21162607&cid=166A4B8DDB6B8E0F,,,,Diversos,,emdec
 Multas radares e semáforos - Campinas,,"transporte,vdm",out/16 e out/17,EMDEC,,,https://onedrive.live.com/view.aspx?cid=166a4b8ddb6b8e0f&page=view&resid=166A4B8DDB6B8E0F!162682&parId=166A4B8DDB6B8E0F!162681&authkey=!AOoF1qWpaO67vnc&app=Excel,,,,Excel,,emdec
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
 GeoSAMPA,"Mapa Digital da Cidade (MDC), base cartográfica digital cadastral nas escalas 1:1.000, na área urbana, e 1:5.000, na área rural do Município de São Paulo. Além do mapa, o portal conta com o acesso aos metadados,
 ferramentas de geoprocessamento, noticias e outros dados de
 interesse aos usuários. A partir do mapa também é possível
 realizar download de arquivos georreferenciados, mapas, plantas,
 croquis, imagens de satélite, fotos aéreas e ortofotos","transporte, mapa, shape, diversos",,São Paulo,,,http://geosampa.prefeitura.sp.gov.br/,,,,HTML,,prefeiturasp
-SPTrans - Olhovivo (área  de desenvolvedores),A API do Olho Vivo provê informações em tempo real do monitoramento da frota de ônibus da cidade de São Paulo.,"transporte, gtfs, gps, tempo-real",tempo real,SPTrans,,,www.sptrans.com.br/desenvolvedores/,,,,HTML,,sptrans
+SPTrans - Olhovivo (área  de desenvolvedores),A API do Olho Vivo provê informações em tempo real do monitoramento da frota de ônibus da cidade de São Paulo.,"transporte, gtfs, gps, tempo-real",tempo real,SPTrans,,,www.sptrans.com.br/desenvolvedores/,,,Para download do arquivo é necessário cadastro.,HTML,cadastro,sptrans
 GTFS (última versão),,"transporte, gtfs",,SPTrans,,,www.sptrans.com.br/desenvolvedores/,,,,HTML,,sptrans
-GTFS - outubro/2016,,,,,,,,,,,,,
-GTFS - outubro/2017,,,,,,,,,,,,,
-Dados históricos GPS - out/2016,,,,,,,,,,,,,
-Dados históricos GPS - out/2017,,,,,,,,,,,,,
-,,,,,,,,,,,,,
+GTFS - outubro/2016,,,out/2016,SPTrans,,,,,,,csv,,sptrans
+GTFS - outubro/2017,,,out/2017,SPTrans,,,,,,,csv,,sptrans
+Dados históricos GPS - out/2016,,,out/2016,SPTrans,,,,,,,csv,,sptrans
+Dados históricos GPS - out/2017,,,out/2017,SPTrans,,,,,,,csv,,sptrans
 Informações dos Municípios Paulistas - IMP,"Mais de 1.700 variáveis sobre os municípios paulistas. Séries históricas, reunidas em diversos temas, como população, educação, condições de vida e habitação, entre outros.",,,seade,,,http://www.imp.seade.gov.br/frontend/#/,,,,,,seade
 Governo Aberto,Catálogo de mais de 400 bases de dados abertos (100 disponíveis para download) dos órgãos do Governo de São Paulo,,,seade,,,http://www.governoaberto.sp.gov.br/,,,,,,seade
 Microdados do Registro Civil,Dados detalhados sobre nascimentos e óbitos no Estado de São Paulo.,,,seade,,,http://produtos.seade.gov.br/produtos/mrc/,,,,,,seade
@@ -56,8 +47,6 @@ Pesquisa de Investimentos Anunciados no Estado de São Paulo,Levantamento de an�
 Pesquisa de Emprego e Desemprego - PED,"Informações sobre o mercado de trabalho, destacando desemprego, ocupação e rendimentos.",,,seade,,,http://www.seade.gov.br/produtos/ped-rmsp/,,,,,,seade
 Painel das Profissões,"Informações sobre profissões, formação profissional e mercado de trabalho formal nos municípios e regiões do Estado.",,,seade,,,http://www.seade.gov.br/profissoes/,,,,,,seade
 Indicadores Sebrae-SP de Conjuntura,"Pesquisa sobre faturamento e expectativas das micro e pequenas empresas e dos microempreendedores individuais, em parceria com o Sebrae-SP",,,seade,,,"http://www.sebrae.com.br/sites/PortalSebrae/ufs/sp/sebraeaz/indicadores-sebrae-em-sao-paulo,5508794363447510VgnVCM1000004c00210aRCRD",,,,,,seade
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,outros
 DataGEO - dados ambiente (principal),,,,DataGEO,,,http://datageo.ambiente.sp.gov.br/,,,,,,outros
 DataGEO - dados mapeamento,,,,DataGEO,,,http://datageo.ambiente.sp.gov.br/coffey?_48_INSTANCE_KDzpt1cNV1RS_iframe_text=ipt&enviar=Consultar&p_p_id=48_INSTANCE_KDzpt1cNV1RS&_48_INSTANCE_KDzpt1cNV1RS_iframe_avancado=false#_48_INSTANCE_KDzpt1cNV1RS_%3Dhttp%253A%252F%252Fdatageo.ambiente.sp.gov.br%252Fgeoportal%252Fcatalog%252Fsearch%252Fsearch.page%253Favancado%253Dfalse%2526text%253Dipt,,,,,,outros
 CPRM (principal),,,,CPRM,,,http://www.cprm.gov.br/,,,,,,outros
