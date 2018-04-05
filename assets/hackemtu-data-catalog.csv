@@ -17,7 +17,7 @@ Bilhetagem Campinas ,Dados de bilhetagem de campinas - outubro/16 -  tamanho 690
 Frota de ônibus de Campinas,Frota de ônibus de Campinas,"transporte, frota-onibus",out/16 e out/17,EMDEC,,,https://onedrive.live.com/?authkey=%21AOoF1qWpaO67vnc&cid=166A4B8DDB6B8E0F&id=166A4B8DDB6B8E0F%21162680&parId=166A4B8DDB6B8E0F%21162679&o=OneUp,,,,Excel,,emdec
 Reclamações/Protocolos - Campinas,,"transporte,protocolo,reclamacoes",out/16 e out/17,EMDEC,,,https://onedrive.live.com/?authkey=%21AOoF1qWpaO67vnc&id=166A4B8DDB6B8E0F%21162683&cid=166A4B8DDB6B8E0F,,,,Diversos,,emdec
 Base cartográfica - Sistema de Informação Geográfica (SIG),"Diversos mapas digitais da cidade de Campinas,SP:  Transporte, linhas de onibus, cadastro vias, ciclovias,ciclofaixas,terminais, radares (formato shape file / qgis)","transporte, linhas-de-onibus, cadastro-vias, faixas, ciclovias,ciclofaixas,terminais,radares",,EMDEC,,,https://onedrive.live.com/?authkey=%21AOoF1qWpaO67vnc&id=166A4B8DDB6B8E0F%21162607&cid=166A4B8DDB6B8E0F,,,,Diversos,,emdec
-Multas radares e semáforos - Campinas,,"transporte,vdm",out/16 e out/17,EMDEC,,,https://onedrive.live.com/view.aspx?cid=166a4b8ddb6b8e0f&page=view&resid=166A4B8DDB6B8E0F!162682&parId=166A4B8DDB6B8E0F!162681&authkey=!AOoF1qWpaO67vnc&app=Excel,,,,Excel,,emdec
+Volume diário médio de veículos (VDM) - Campinas,,"transporte,vdm",out/16 e out/17,EMDEC,,,https://onedrive.live.com/view.aspx?cid=166a4b8ddb6b8e0f&page=view&resid=166A4B8DDB6B8E0F!162682&parId=166A4B8DDB6B8E0F!162681&authkey=!AOoF1qWpaO67vnc&app=Excel,,,,Excel,,emdec
 GeoSAMPA,"Mapa Digital da Cidade (MDC), base cartográfica digital cadastral nas escalas 1:1.000, na área urbana, e 1:5.000, na área rural do Município de São Paulo. Além do mapa, o portal conta com o acesso aos metadados,
 ferramentas de geoprocessamento, noticias e outros dados de
 interesse aos usuários. A partir do mapa também é possível
@@ -25,10 +25,10 @@ realizar download de arquivos georreferenciados, mapas, plantas,
 croquis, imagens de satélite, fotos aéreas e ortofotos","transporte, mapa, shape, diversos",,São Paulo,,,http://geosampa.prefeitura.sp.gov.br/,,,,HTML,,prefeiturasp
 SPTrans - Olhovivo (área  de desenvolvedores),A API do Olho Vivo provê informações em tempo real do monitoramento da frota de ônibus da cidade de São Paulo.,"transporte, gtfs, gps, tempo-real",tempo real,SPTrans,,,www.sptrans.com.br/desenvolvedores/,,,Para download do arquivo é necessário cadastro.,HTML,cadastro,sptrans
 GTFS (última versão),,"transporte, gtfs",,SPTrans,,,www.sptrans.com.br/desenvolvedores/,,,,HTML,,sptrans
-GTFS - outubro/2016,,,out/2016,SPTrans,,,,,,,csv,,sptrans
-GTFS - outubro/2017,,,out/2017,SPTrans,,,,,,,csv,,sptrans
-Dados históricos GPS - out/2016,,,out/2016,SPTrans,,,,,,,csv,,sptrans
-Dados históricos GPS - out/2017,,,out/2017,SPTrans,,,,,,,csv,,sptrans
+GTFS - outubro/2016 (em breve!),,,out/2016,SPTrans,,,,,,,csv,,sptrans
+GTFS - outubro/2017 (em breve!),,,out/2017,SPTrans,,,,,,,csv,,sptrans
+Dados históricos GPS - out/2016 (em breve!),,,out/2016,SPTrans,,,,,,,csv,,sptrans
+Dados históricos GPS - out/2017 (em breve!),,,out/2017,SPTrans,,,,,,,csv,,sptrans
 Informações dos Municípios Paulistas - IMP,"Mais de 1.700 variáveis sobre os municípios paulistas. Séries históricas, reunidas em diversos temas, como população, educação, condições de vida e habitação, entre outros.",,,seade,,,http://www.imp.seade.gov.br/frontend/#/,,,,HTML,,seade
 Governo Aberto,Catálogo de mais de 400 bases de dados abertos (100 disponíveis para download) dos órgãos do Governo de São Paulo,,,seade,,,http://www.governoaberto.sp.gov.br/,,,,HTML,,seade
 Microdados do Registro Civil,Dados detalhados sobre nascimentos e óbitos no Estado de São Paulo.,,,seade,,,http://produtos.seade.gov.br/produtos/mrc/,,,,HTML,,seade
