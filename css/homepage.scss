@@ -16,7 +16,7 @@ body, html {
 .search_ {
   position: absolute;
   left: 0;
-  top: 40%;
+  top: -50px;
   width: 100%;
   text-align: center;
   color: #000;
@@ -26,6 +26,6 @@ body, html {
     background-image: url('{{ site.baseurl }}/img/backgrounds/cb_aereo.jpg');
 //    background-image: url('{{ site.baseurl }}/img/backgrounds/fotosp.jpg');
     background-position: center center;
-    height: 100%;
+    height: 80%;
     background-size: cover;
 }
