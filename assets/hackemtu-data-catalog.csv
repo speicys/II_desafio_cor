@@ -26,6 +26,7 @@ ferramentas de geoprocessamento, noticias e outros dados de
 interesse aos usuários. A partir do mapa também é possível
 realizar download de arquivos georreferenciados, mapas, plantas,
 croquis, imagens de satélite, fotos aéreas e ortofotos","transporte, mapa, shape, diversos",,São Paulo,,,http://geosampa.prefeitura.sp.gov.br/,,,,HTML,,prefeiturasp
+São Paulo Dados Abertos,Conjunto com diversos dados abertos mantido pela prefeitura de São Paulo,"transporte, mapa, shape, diversos",,São Paulo,,,http://dados.prefeitura.sp.gov.br/,,,,HTML,,prefeiturasp
 SPTrans - Olhovivo (área  de desenvolvedores),A API do Olho Vivo provê informações em tempo real do monitoramento da frota de ônibus da cidade de São Paulo.,"transporte, gtfs, gps, tempo-real",tempo real,SPTrans,,,www.sptrans.com.br/desenvolvedores/,,,Para download do arquivo é necessário cadastro.,HTML,cadastro,sptrans
 SPTrans - GTFS (última versão),GTFS Sptrans - atual,"transporte, gtfs",,SPTrans,,,www.sptrans.com.br/desenvolvedores/,,,,HTML,,sptrans
 SPTrans - GTFS - outubro/2016,GTFS Sptrans - out/2016,"transporte, gtfs",out/2016,SPTrans,,,http://db4.scipopulis.com/hackemtu/sptrans/gtfs/gtfs-saopaulo_sp-20161027.zip,,,,csv,,sptrans
@@ -54,7 +55,6 @@ DataGEO - dados mapeamento,Sistema Ambienta Paulista,,,DataGEO,,,http://datageo.
 CPRM - Serviço Geológico do Brasil,,,,CPRM,,,http://www.cprm.gov.br/publique/Gestao-Territorial/Geologia-de-Engenharia-e-Riscos-Geologicos/Cartas-de-Suscetibilidade-a-Movimentos-Gravitacionais-de-Massa-e-Inundacoes-3507.html,,,,HTML,,outros
 SP - Infraestrutura Dados Espaciais  (IDE SP),,,,IDESP,,,http://www.idesp.sp.gov.br/Visualizador,,,,HTML,,outros
 SP - Defesa Civil,Identificação de Riscos,,,Defesa Civil SP,,,http://www.defesacivil.sp.gov.br/?page_id=399,,,,HTML,,outros
-,,,,,,,,,,,csv,,scipopulis
 Scipopulis - velocidades dos trechos de SP,"
 Neste conjunto de dados disponibilizamos as velocidades médias (em km/h) dos trechos da cidade de São Paulo
 nos primeiros 7 dias de outubro de 2016 e 2017.
