@@ -46,6 +46,7 @@ d3.csv("/hackemtu-data-catalog/assets/hackemtu-data-catalog.csv", function callb
             $('#filter-type-' + searchType).addClass("active")
         }
 
+
     }
 });
 
@@ -272,6 +273,7 @@ Searcher.prototype.updateCatalog = function(displayData) {
             .attr("href", function(d) {
                 return d.url;
             })
+            .attr("target","_blank")
             .attr("class", "btn btn-primary pull-right")
             .text(function(d){
                 if (d.type == "HTML") { return "Acessar";}
