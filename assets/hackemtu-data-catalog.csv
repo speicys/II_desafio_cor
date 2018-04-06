@@ -54,3 +54,14 @@ DataGEO - dados mapeamento,Sistema Ambienta Paulista,,,DataGEO,,,http://datageo.
 CPRM - Serviço Geológico do Brasil,,,,CPRM,,,http://www.cprm.gov.br/publique/Gestao-Territorial/Geologia-de-Engenharia-e-Riscos-Geologicos/Cartas-de-Suscetibilidade-a-Movimentos-Gravitacionais-de-Massa-e-Inundacoes-3507.html,,,,HTML,,outros
 SP - Infraestrutura Dados Espaciais  (IDE SP),,,,IDESP,,,http://www.idesp.sp.gov.br/Visualizador,,,,HTML,,outros
 SP - Defesa Civil,Identificação de Riscos,,,Defesa Civil SP,,,http://www.defesacivil.sp.gov.br/?page_id=399,,,,HTML,,outros
+,,,,,,,,,,,csv,,scipopulis
+Scipopulis - velocidades dos trechos de SP,"
+Neste conjunto de dados disponibilizamos as velocidades médias (em km/h) dos trechos da cidade de São Paulo
+nos primeiros 7 dias de outubro de 2016 e 2017.
+Um trecho é o trajeto entre dois pontos de ônibus da cidade.
+Cada linha tem informação de um trecho e velocidade média hora a hora do dia (00 a 23)
+
+Qualquer dúvida entrar em contato em fale@scipopulis.com
+
+(ver arquivo README para formato dos dados)
+",,out/16 e out/17,Scipopulis,,,http://ftp.scipopulis.com/hackemtu/scipop/,,,,csv,,scipopulis
