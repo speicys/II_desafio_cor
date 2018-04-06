@@ -1,8 +1,6 @@
 main:
     -   name: Início
         url: /
-#    -   name: Sobre
-#        url: /about/
     -   name: Catálogo
         url: /catalog/
     -   name: HackEMTU
