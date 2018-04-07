@@ -38,7 +38,13 @@ d3.csv("/hackemtu-data-catalog/assets/hackemtu-data-catalog.csv", function callb
 
         // if there's a category, highlight the relevant list item
         if (searchCategory) {
-            $('#filter-category-' + searchCategory).addClass("active")
+            $('#filter-category-' + searchCategory).addClass("active");
+            var category_desc = "";
+            if (searchCategory == "emtu") {
+                category_desc = 'Nota: A EMTU disponibiliza os dados operacionais dos ônibus metropolitanos atuantes nas cinco das seis regiões metropolitanas do Estado de São Paulo. Será distribuido para cada equipe uma senha de acesso aos dados da EMTU.';
+            }
+
+            $('#category-desc').text(category_desc)
         }
 
         // if there's a category, highlight the relevant list item
