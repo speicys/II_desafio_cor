@@ -93,7 +93,7 @@ body {
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 80px;
-    background-color: #f5f5f5;
+    //background-color: #f5f5f5;
 
     text-align: center;
 }
@@ -141,22 +141,22 @@ body {
 
 /* Transparência Colors */
 .navbar-red {
-    background-color: #363aab;
-    border-color: #3a3194;
+    background-color: #142252;
+    border-color: #0033cc;
 }
 
 .btn-primary {
     color: #ffffff;
-    background-color: #3a31ab;
-    border-color: #3a3194;
+    background-color: #142252;
+    border-color: #0033cc;
 }
 
 .text-primary {
-    color: #3a31ab;
+    color: #142252;
 }
 
 .navbar-red .navbar-nav>.active>a, .navbar-red .navbar-nav>.active>a:hover, .navbar-red .navbar-nav>.active>a:focus {
-    background-color: #3a31ab;
+    background-color: #0033cc;
 }
 
 /* Transparência tags */
@@ -171,8 +171,8 @@ p.label {
 }
 
 body {
-    font-family: "Roboto", Arial, sans-serif;
-   /*   // Safari for OS X and iOS (San Francisco)
+    font-family: 'Raleway', sans-serif;
+    /*   // Safari for OS X and iOS (San Francisco)
       -apple-system,
       // Chrome >= 56 for OS X (San Francisco), Windows, Linux and Android
       system-ui,

@@ -23,9 +23,13 @@ body, html {
 }
 
 .backdrop {
-    background-image: url('{{ site.baseurl }}/img/backgrounds/cb_aereo.jpg');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/masp.png');
 //    background-image: url('{{ site.baseurl }}/img/backgrounds/fotosp.jpg');
     background-position: center center;
     height: 80%;
     background-size: cover;
+}
+
+.title {
+  padding-top: 200px;
 }

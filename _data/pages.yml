@@ -3,7 +3,7 @@ main:
         url: /
     -   name: Catálogo
         url: /catalog/
-    -   name: HackEMTU
-        url: https://hackemtu.com
+    -   name: HackAmericas
+        url: http://www.hackamericas.org/
     -   name: GitHub
         url: https://github.com/jmfly/hackemtu-data-catalog
