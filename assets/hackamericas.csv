@@ -1,4 +1,13 @@
-title,description,tags,last_update,publisher,contact_nam,contact_email,url,direct_url,license,comments,type,access,category
-EMTU - VLT Santos, Imagens da entrada de uma estação de VLT mostrando passageiros embarcando e desembarcando,"transporte, bilhetagem",9/11/2018,EMTU,,,https://www.dropbox.com/s/tpe42c3lmb4b1v3/10.3.6.53_2018_94322.mp4?dl=0,,,,MP4,,emtu
-EMTU - GTFS, Rede de transportes por ônibus da EMTU em formato GTFS,"transporte,gtfs",4/2018,EMTU,,,https://www.dropbox.com/s/o2jstmnqi3jrd7n/gtfs.zip?dl=0,,,,CSV,,emtu
-EMTU - Bilhetagem, Dados de bilhetagem da região metropolitana de São Paulo,"transporte,bilhetagem",10/2017,EMTU,,,https://www.dropbox.com/s/t83v61mz7u0qkc8/dados_bilhetagem_RMSP_Onibus.csv.zip?dl=0,,,,CSV,,emtu
+﻿title,description,tags,last_update,publisher,contact_nam,contact_email,url,direct_url,license,comments,type,access,category
+EMTU - VLT Santos, Imagens da entrada de uma estação de VLT mostrando passageiros embarcando e desembarcando,transporte, bilhetagem,09/11/2018,EMTU,,,https://www.dropbox.com/s/tpe42c3lmb4b1v3/10.3.6.53_2018_94322.mp4?dl=0,,,,MP4,,emtu
+EMTU - GTFS, Rede de transportes por ônibus da EMTU em formato GTFS,transporte,gtfs,01/04/2018,EMTU,,,https://www.dropbox.com/s/o2jstmnqi3jrd7n/gtfs.zip?dl=0,,,,CSV,,emtu
+EMTU - Bilhetagem, Dados de bilhetagem da região metropolitana de São Paulo,transporte,bilhetagem,01/10/2017,EMTU,,,https://www.dropbox.com/s/t83v61mz7u0qkc8/dados_bilhetagem_RMSP_Onibus.csv.zip?dl=0,,,,CSV,,emtu
+METRO - Canais de comunicação,Contatos de todos os Canais de Comunicação do Metrô,Contatos, comunicação metrô,05/06/2017,METRO,,,https://transparencia.metrosp.com.br/dataset/contatos-de-todos-canais-de-comunicação-do-metrô,,,,HTML,,metro
+METRO - Ouvidoria,Relatório de atendimento - Ouvidoria 2014 até 2018,ouvidoria,  relatórios,27/11/2018,METRO,,,https://transparencia.metrosp.com.br/dataset/ouvidoria,,,,CSV, PDF,,metro
+METRO - SIC,Serviço de Informação ao Cidadão,atendimento, relatórios,11/10/2018,METRO,,,https://transparencia.metrosp.com.br/dataset/sic-serviços-de-informação-ao-cidadão,,,,ZIP, CSV, PDF,,metro
+METRO - Gerência de Operações,Canais de atendimento - Gerência de Operações,Achados, perdidos, denúncia,29/10/2018,METRO,,,https://transparencia.metrosp.com.br/dataset/canais-de-atendimento-gerência-de-operações,,,,PDF,,metro
+METRO - Demanda,Estatística do fluxo de usuários,Fluxo, usuários,27/11/2018,METRO,,,https://transparencia.metrosp.com.br/dataset/demanda,,,,PDF, CSV,,metro
+METRO - Infraestutura ,Infraestutura - Dados de linhas e estações,Nº de estações, extensão,22/11/2018,METRO,,,https://transparencia.metrosp.com.br/dataset/infraestrutura-dados-de-linhas-e-estações,,,,PDF, CSV,,metro
+METRO - Procedimentos ,"Procedimentos - Guia ""Metrô Boa Viagem""",Regras, como utilizar,30/05/2017,METRO,,,https://transparencia.metrosp.com.br/dataset/procedimentos-guia-metrô-boa-viagem,,,,HTML,,metro 
+METRO - Visitas Monitoradas,Programa de Visitas Monitoradas,Visitas, operação,30/05/2017,METRO,,,https://transparencia.metrosp.com.br/dataset/programa-de-visitas-monitoradas,,,,HTML,,metro
+METRO - Endereços,Relação dos endereços das estações,endereços,28/08/2018,METRO,,,https://transparencia.metrosp.com.br/dataset/endereço-das-estações,,,,HTML,,metro
