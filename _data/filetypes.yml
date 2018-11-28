@@ -14,3 +14,5 @@
   icon: file-pdf-o
 - name: Diversos
   icon: code
+- name: MP4
+  icon: video
