@@ -17,15 +17,15 @@ EMTU - Dados passageiros por viagem - VLT,,"transporte,passageiros",out/16 e out
 "EMTU - bilhetagem RMBS ônibus, RMBS VLT, RMSP ônibus",Dados de bilhetagems baixada santista e são paulo,"transporte,bilhetagem,onibus",,EMTU,,,https://onedrive.live.com/?authkey=%21AOoF1qWpaO67vnc&id=166A4B8DDB6B8E0F%21162351&cid=166A4B8DDB6B8E0F,,,,Excel,,emtu
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
-METRO - Canais de comunicação,Contatos de todos os Canais de Comunicação do Metrô,Contatos, comunicação metrô,05/06/2017,METRO,,,https://transparencia.metrosp.com.br/dataset/contatos-de-todos-canais-de-comunicação-do-metrô,,,,HTML,,metro
-METRO - Ouvidoria,Relatório de atendimento - Ouvidoria 2014 até 2018,ouvidoria,  relatórios,27/11/2018,METRO,,,https://transparencia.metrosp.com.br/dataset/ouvidoria,,,,CSV, PDF,,metro
-METRO - SIC,Serviço de Informação ao Cidadão,atendimento, relatórios,11/10/2018,METRO,,,https://transparencia.metrosp.com.br/dataset/sic-serviços-de-informação-ao-cidadão,,,,ZIP, CSV, PDF,,metro
-METRO - Gerência de Operações,Canais de atendimento - Gerência de Operações,Achados, perdidos, denúncia,29/10/2018,METRO,,,https://transparencia.metrosp.com.br/dataset/canais-de-atendimento-gerência-de-operações,,,,PDF,,metro
-METRO - Demanda,Estatística do fluxo de usuários,Fluxo, usuários,27/11/2018,METRO,,,https://transparencia.metrosp.com.br/dataset/demanda,,,,PDF, CSV,,metro
-METRO - Infraestutura ,Infraestutura - Dados de linhas e estações,Nº de estações, extensão,22/11/2018,METRO,,,https://transparencia.metrosp.com.br/dataset/infraestrutura-dados-de-linhas-e-estações,,,,PDF, CSV,,metro
-METRO - Procedimentos ,"Procedimentos - Guia ""Metrô Boa Viagem""",Regras, como utilizar,30/05/2017,METRO,,,https://transparencia.metrosp.com.br/dataset/procedimentos-guia-metrô-boa-viagem,,,,HTML,,metro
-METRO - Visitas Monitoradas,Programa de Visitas Monitoradas,Visitas, operação,30/05/2017,METRO,,,https://transparencia.metrosp.com.br/dataset/programa-de-visitas-monitoradas,,,,HTML,,metro
-METRO - Endereços,Relação dos endereços das estações,endereços,28/08/2018,METRO,,,https://transparencia.metrosp.com.br/dataset/endereço-das-estações,,,,HTML,,metro
+METRO - Canais de comunicação,Contatos de todos os Canais de Comunicação do Metrô,"transporte,atendimento,sac",05/06/2017,METRO,,,https://transparencia.metrosp.com.br/dataset/contatos-de-todos-canais-de-comunicação-do-metrô,,,,HTML,,metro
+METRO - Ouvidoria,Relatório de atendimento - Ouvidoria 2014 até 2018,"transporte,atendimento,sac",27/11/2018,METRO,,,https://transparencia.metrosp.com.br/dataset/ouvidoria,,,,"CSV,PDF",,metro
+METRO - SIC,Serviço de Informação ao Cidadão,"transporte,atendimento,sac",11/10/2018,METRO,,,https://transparencia.metrosp.com.br/dataset/sic-serviços-de-informação-ao-cidadão,,,,"ZIP,CSV,PDF",,metro
+METRO - Gerência de Operações,Canais de atendimento - Gerência de Operações,"transporte,atendimento,sac",29/10/2018,METRO,,,https://transparencia.metrosp.com.br/dataset/canais-de-atendimento-gerência-de-operações,,,,PDF,,metro
+METRO - Demanda,Estatística do fluxo de usuários,"transporte, fluxo",27/11/2018,METRO,,,https://transparencia.metrosp.com.br/dataset/demanda,,,,"PDF,CSV",,metro
+METRO - Infraestutura,Infraestutura - Dados de linhas e estações,"transporte, infraestrutura",22/11/2018,METRO,,,https://transparencia.metrosp.com.br/dataset/infraestrutura-dados-de-linhas-e-estações,,,,"PDF,CSV",,metro
+METRO - Procedimentos,"Procedimentos - Guia ""Metrô Boa Viagem""","transporte, operação, regras",30/05/2017,METRO,,,https://transparencia.metrosp.com.br/dataset/procedimentos-guia-metrô-boa-viagem,,,,HTML,,metro
+METRO - Visitas Monitoradas,Programa de Visitas Monitoradas,"transporte, operação, visitas",30/05/2017,METRO,,,https://transparencia.metrosp.com.br/dataset/programa-de-visitas-monitoradas,,,,HTML,,metro
+METRO - Endereços,Relação dos endereços das estações,"transport, operação, endereços",28/08/2018,METRO,,,https://transparencia.metrosp.com.br/dataset/endereço-das-estações,,,,HTML,,metro
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
 SPTrans - Olhovivo (área  de desenvolvedores),A API do Olho Vivo provê informações em tempo real do monitoramento da frota de ônibus da cidade de São Paulo.,"transporte, gtfs, gps, tempo-real",tempo real,SPTrans,,,www.sptrans.com.br/desenvolvedores/,,,Para download do arquivo é necessário cadastro.,HTML,cadastro,sptrans
