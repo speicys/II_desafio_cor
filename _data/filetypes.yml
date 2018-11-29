@@ -16,3 +16,5 @@
   icon: code
 - name: MP4
   icon: video
+- name: png
+  icon: image

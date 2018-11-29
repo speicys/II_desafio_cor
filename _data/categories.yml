@@ -12,14 +12,15 @@
 -   name: Metro
     slug: metro
     icon: train
-    description: O Metro .
+    description: O Metro disponibiliza diversos dados a respeito da operação, infraestrutura de bicicletas, características de trens e pesquisa origem e destino.
 -   name: Artesp
     slug: artesp
     icon: bus
-    description: A Artesp .
+    description: A Artesp disponibiliza dados sobre o transporte rodoviário de passageiros no estado de SP.
 -   name: Prefeitura SP
     slug: prefeiturasp
     icon: university
+    description: A prefeitura disponibiliza diversas bases geolocalizadas de informações que dizem respeito à infraestrutura e aos serviços da cidade.
 -   name: SEADE
     slug: seade
     icon: users

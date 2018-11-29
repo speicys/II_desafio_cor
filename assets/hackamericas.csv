@@ -25,7 +25,14 @@ METRO - Demanda,Estatística do fluxo de usuários,"transporte, fluxo",27/11/201
 METRO - Infraestutura,Infraestutura - Dados de linhas e estações,"transporte, infraestrutura",22/11/2018,METRO,,,https://transparencia.metrosp.com.br/dataset/infraestrutura-dados-de-linhas-e-estações,,,,"PDF,CSV",,metro
 METRO - Procedimentos,"Procedimentos - Guia ""Metrô Boa Viagem""","transporte, operação, regras",30/05/2017,METRO,,,https://transparencia.metrosp.com.br/dataset/procedimentos-guia-metrô-boa-viagem,,,,HTML,,metro
 METRO - Visitas Monitoradas,Programa de Visitas Monitoradas,"transporte, operação, visitas",30/05/2017,METRO,,,https://transparencia.metrosp.com.br/dataset/programa-de-visitas-monitoradas,,,,HTML,,metro
-METRO - Endereços,Relação dos endereços das estações,"transport, operação, endereços",28/08/2018,METRO,,,https://transparencia.metrosp.com.br/dataset/endereço-das-estações,,,,HTML,,metro
+METRO - Endereços,Relação dos endereços das estações,"transporte, operação, endereços",28/08/2018,METRO,,,https://transparencia.metrosp.com.br/dataset/endereço-das-estações,,,,HTML,,metro
+METRO - Paraciclos,Lista dos paraciclos disponíveis por estação do metrô,"transporte,bicicleta",2018,METRO,,,https://www.dropbox.com/s/bkymnu7kmwl4jw0/Paraciclos.csv?dl=0,,,,CSV,,metro
+METRO - Entradas de bicicletas,Entradas nos bicicletários de cada estação do metrô,"transporte,bicicleta",2016/2017,METRO,,,https://www.dropbox.com/s/4ph7umc81zrgf87/Entradas%20Diarias%20-%20Bicicletarios.zip?dl=0,,,,"CSV,ZIP",,metro
+METRO - Origem e destino,Microdados da pesquisa de origem e destino realizada pelo metrô,"transporte,demanda,od",2007,METRO,,,https://www.dropbox.com/sh/soo0jlswca8tptj/AABs3DBJq_HbsTYQXpJOavk9a?dl=0,,,,"CSV,PDF,ZIP",,metro
+METRO - Características dos trens,Descrição dos trens utilizados pelo metrô,"transporte,trens",2018,METRO,,,https://www.dropbox.com/s/9cryv77l3ytwfvt/Informa%C3%A7%C3%B5es%20T%C3%A9cnicas%20-%20Frotas%20Metr%C3%B4-SP-Com%20Aspas.csv?dl=0,,,,"CSV",,metro
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Prefeitura de SP,"Diversas bases geolocalizadas com informações sobre a infrastrutura da cidade","cidade,infraestrutura",2018,Prefeitura de SP,,,http://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx,,,,"KML",,prefeiturasp
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
 SPTrans - Olhovivo (área  de desenvolvedores),A API do Olho Vivo provê informações em tempo real do monitoramento da frota de ônibus da cidade de São Paulo.,"transporte, gtfs, gps, tempo-real",tempo real,SPTrans,,,www.sptrans.com.br/desenvolvedores/,,,Para download do arquivo é necessário cadastro.,HTML,cadastro,sptrans
@@ -56,4 +63,10 @@ Seade - Painel das Profissões,"Informações sobre profissões, formação prof
 Seade - Indicadores Sebrae-SP de Conjuntura,"Pesquisa sobre faturamento e expectativas das micro e pequenas empresas e dos microempreendedores individuais, em parceria com o Sebrae-SP",,,seade,,,"http://www.sebrae.com.br/sites/PortalSebrae/ufs/sp/sebraeaz/indicadores-sebrae-em-sao-paulo,5508794363447510VgnVCM1000004c00210aRCRD",,,,HTML,,seade
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
+ARTESP - Passageiros,"Base de dados do QIOM (Quadro Informativo Operacional Mensal). Contém a quantidade de passageiros transportados mensalmente pelas operadoras e as respectivas linhas e trechos. Contempla todo transporte rodoviário e suburbano sob controle da Artesp, não inclui as informações de fretamento","transporte, rodoviário",2017,ARTESP,,,"https://www.dropbox.com/sh/godvvgmgvqt09rq/AAB6el5qdRin9JEAfWBav_jba?dl=0",,,,CSV,,artesp
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
 Scipopulis - velocidades dos trechos de SP,"Neste conjunto de dados disponibilizamos as velocidades médias (em km/h) dos trechos da cidade de São Paulo nos primeiros 7 dias de outubro de 2016 e 2017. Um trecho é o trajeto entre dois pontos de ônibus da cidade. Cada linha tem informação de um trecho e velocidade média hora a hora do dia (00 a 23) Qualquer dúvida entrar em contato em fale@scipopulis.com (ver arquivo README para formato dos dados)",,out/16 e out/17,Scipopulis,,,http://ftp.scipopulis.com/hackemtu/scipop/,,,,csv,,scipopulis
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Yellow - viagens,"Mapas com frequencias de viagens em regiões próximas à Avenida Faria Lima","transporte, bicicletas",2018,Yellow,,,https://www.dropbox.com/s/qkei9f0i7r26zz5/yellow.zip?dl=0,,,,png,,yellow
