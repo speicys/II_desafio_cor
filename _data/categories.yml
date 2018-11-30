@@ -8,7 +8,7 @@
 -   name: CPTM
     slug: cptm
     icon: train
-    description: A CPTM .
+    description: A CPTM disponibiliza dados de posicionamento dos trens.
 -   name: Metro
     slug: metro
     icon: train
