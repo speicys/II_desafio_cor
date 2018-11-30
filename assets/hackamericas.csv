@@ -69,4 +69,7 @@ ARTESP - Passageiros,"Base de dados do QIOM (Quadro Informativo Operacional Mens
 Scipopulis - velocidades dos trechos de SP,"Neste conjunto de dados disponibilizamos as velocidades médias (em km/h) dos trechos da cidade de São Paulo nos primeiros 7 dias de outubro de 2016 e 2017. Um trecho é o trajeto entre dois pontos de ônibus da cidade. Cada linha tem informação de um trecho e velocidade média hora a hora do dia (00 a 23) Qualquer dúvida entrar em contato em fale@scipopulis.com (ver arquivo README para formato dos dados)",,out/16 e out/17,Scipopulis,,,http://ftp.scipopulis.com/hackemtu/scipop/,,,,csv,,scipopulis
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
+CET São Paulo,"Dados de tráfego (acidentes, corredores e faixas exclusivas, vias cicláveis, eventos na cidade, processos para licenças, lentidão do trânsito, sinalização por lombadas, manutenção semafórica, sinalização comunitária, ocorrências, infrações e área 40)","transporte, trânsito, tráfego",2014,CET,,,http://www.cetsp.com.br/internew/hackatona/tudo/indexn.html,,,,HTML,,cet
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
 Yellow - viagens,"Mapas com frequencias de viagens em regiões próximas à Avenida Faria Lima","transporte, bicicletas",2018,Yellow,,,https://www.dropbox.com/s/qkei9f0i7r26zz5/yellow.zip?dl=0,,,,png,,yellow

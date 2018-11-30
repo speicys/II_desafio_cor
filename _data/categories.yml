@@ -21,6 +21,10 @@
     slug: prefeiturasp
     icon: university
     description: A prefeitura disponibiliza diversas bases geolocalizadas de informações que dizem respeito à infraestrutura e aos serviços da cidade.
+-   name: CET SP
+    slug: cet
+    icon: car
+    description: Dados da hackathona da CET de 2014.
 -   name: SEADE
     slug: seade
     icon: users
