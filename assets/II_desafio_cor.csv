@@ -1,0 +1,12 @@
+title,description,tags,last_update,publisher,contact_nam,contact_email,url,direct_url,license,comments,type,access,category
+
+COMANDO_01-11-2016_a_30_04_2018.csv,"Dados de novembro de 2016 até abril de 2018","2016, 2017, 2018",27 de agosto,,,,(url),(direct_url),,csv,,,
+COMANDO_01-11-2016_a_30_04_2018.xlsx,"Dados de novembro de 2016 até abril de 2018","2016, 2017, 2018",27 de agosto,,,,(url),(direct_url),,xlsx,,,
+GTFS,,GTFS,14 de agosto,,,,(url),(direct_url),,,GTFS,,
+LINKTRANS_Novembro_2016_a_Abril_2017,,"2016, 2017",23 de agosto,,,,(url),(direct_url),,,csv,,
+LINKTRANS_Novembro_2017_a_Abril_2018,,"2017, 2018",14 de agosto,,,,(url),(direct_url),,,csv,,
+Manchas de inundacao,,Inundação,26 de agosto,,,,(url),(direct_url),,,shp,,
+Shape BRS,,,16 de agosto,,,,(url),(direct_url),,,shp,,
+Re__Dados_pluviométricos_-_Alerta_Rio.zip,,"dados pluviométricos, dados pluviais",23 de setembro de 2019,,,,(url),(direct_url),,txt,,,
+
+Data.rio, "Portal de armazenamento de dados sobre a cidade de Rio de Janeiro","Rio de Janeiro, Território e meio ambiente, esporte e lazer, transporte, saúde, cultura, turismo, infraestrutura e saneamento, população, desenvolvimento e assistência social, eduação, economia, habitação e urbanismo, segurança pública",,INSTITUTO PEREIRA PASSOS,,,http://www.data.rio/,http://www.data.rio/,,,diversos,,

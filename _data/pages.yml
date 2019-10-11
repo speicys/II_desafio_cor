@@ -3,7 +3,5 @@ main:
         url: /
     -   name: Catálogo
         url: /catalog/
-    -   name: HackAmericas
-        url: http://www.hackamericas.org/
     -   name: GitHub
-        url: https://github.com/jmfly/hackemtu-data-catalog
+        url: https://github.com/speicys/II_desafio_cor

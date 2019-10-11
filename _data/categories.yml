@@ -1,39 +1,48 @@
--   name: EMTU
-    slug: emtu
-    icon: bus
-    description: A EMTU disponibiliza os dados operacionais dos ônibus metropolitanos atuantes nas cinco das seis regiões metropolitanas do Estado de São Paulo.  Será distribuido para cada equipe uma senha de acesso aos dados da EMTU.
--   name: SPTrans
-    slug: sptrans
-    icon: bus-alt
--   name: CPTM
-    slug: cptm
-    icon: train
-    description: A CPTM disponibiliza dados de posicionamento dos trens.
--   name: Metro
-    slug: metro
-    icon: train
-    description: O Metro disponibiliza diversos dados a respeito da operação, infraestrutura de bicicletas, características de trens e pesquisa origem e destino.
--   name: Artesp
-    slug: artesp
-    icon: bus
-    description: A Artesp disponibiliza dados sobre o transporte rodoviário de passageiros no estado de SP.
--   name: Prefeitura SP
-    slug: prefeiturasp
-    icon: university
-    description: A prefeitura disponibiliza diversas bases geolocalizadas de informações que dizem respeito à infraestrutura e aos serviços da cidade.
--   name: CET SP
-    slug: cet
-    icon: car
-    description: Dados da hackathona da CET de 2014.
--   name: SEADE
-    slug: seade
-    icon: users
--   name: Scipopulis
-    slug: scipopulis
-    icon: cog
--   name: Yellow
-    slug: yellow
-    icon: bicycle
--   name: Outros
-    slug: outros
+#    name: EMTU
+#    slug: emtu
+#    icon: bus
+#    description: A EMTU disponibiliza os dados operacionais dos ônibus metropolitanos atuantes nas cinco das seis regiões metropolitanas do Estado de São Paulo.  Será distribuido para cada equipe uma senha de acesso aos dados da EMTU.
+#    name: SPTrans
+#    slug: sptrans
+#    icon: bus-alt
+#    name: CPTM
+#    slug: cptm
+#    icon: train
+#    description: A CPTM disponibiliza dados de posicionamento dos trens.
+#    name: Metro
+#    slug: metro
+#    icon: train
+#    description: O Metro disponibiliza diversos dados a respeito da operação, infraestrutura de bicicletas, características de trens e pesquisa origem e destino.
+#    name: Artesp
+#    slug: artesp
+#    icon: bus
+#    description: A Artesp disponibiliza dados sobre o transporte rodoviário de passageiros no estado de SP.
+#    name: Prefeitura RJ 
+#    slug: prefeiturarj
+#    icon: university
+#    description: A prefeitura disponibiliza diversas bases geolocalizadas de informações que dizem respeito à infraestrutura e aos serviços da cidade.
+#    name: CET SP
+#    slug: cet
+#    icon: car
+#    description: Dados da hackathona da CET de 2014.
+#    name: SEADE
+#    slug: seade
+#    icon: users
+#    name: Scipopulis
+#    slug: scipopulis
+#    icon: cog
+#    name: Yellow
+#    slug: yellow
+#    icon: bicycle
+#    name: Outros
+#    slug: outros
+#    icon: archive
+    name: Dados fluviais
+    slug: dadosfluviais
+    icon: water
+    name: Prefeitura da Cidade do Rio de Janeiro
+    slug: prefeiturario
+    icon: archive
+    name: Data.rio
+    slug: datario
     icon: archive

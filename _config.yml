@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Hackathon de Mobilidade Urbana - HackAmericas 2018
+title: II Desafio COR
 # email: your-email@domain.com
-description: >
-    O HackAmericas é um hackathon voltado para a mobilidade urbana com foco em inovação em transporte público. A realização é da Empresa Metropolitana de Transportes Urbanos de São Paulo (EMTU/SP), Universidade Presbiteriana Mackenie e da startup Scipopulis
-baseurl: "/hackamericas" # the subpath of your site, e.g. /blog
+description:
+    O II Desafio COR é um...
+baseurl: "/II_desafio_cor" # the subpath of your site, e.g. /blog
 url: "http://scipopulis.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 # github_username:  jekyll

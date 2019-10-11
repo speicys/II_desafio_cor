@@ -18,3 +18,7 @@
   icon: video
 - name: png
   icon: image
+  name: txt
+  icon: file-word
+  name: Shp
+  icon: square

@@ -3,7 +3,7 @@
 
 var searcher;
 
-d3.csv("/hackamericas/assets/hackamericas.csv", function callback(data){
+d3.csv("/II_desafio_cor/assets/II_desafio_cor.csv", function callback(data){
     // sort data by title
    // data.sort(function(a, b) {
    //     return a.title > b.title;
