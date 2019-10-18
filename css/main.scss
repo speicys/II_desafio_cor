@@ -141,22 +141,22 @@ body {
 
 /* Transparência Colors */
 .navbar-red {
-    background-color: #142252;
-    border-color: #0033cc;
+    background-color: white;
+    border-color: #98c93c;
 }
 
 .btn-primary {
     color: #ffffff;
-    background-color: #142252;
-    border-color: #0033cc;
+    background-color: #98c93c;
+    border-color: white;
 }
 
 .text-primary {
-    color: #142252;
+    color: #98c93c;
 }
 
 .navbar-red .navbar-nav>.active>a, .navbar-red .navbar-nav>.active>a:hover, .navbar-red .navbar-nav>.active>a:focus {
-    background-color: #0033cc;
+    background-color: #98c93c;
 }
 
 /* Transparência tags */
@@ -171,7 +171,7 @@ p.label {
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;;
     /*   // Safari for OS X and iOS (San Francisco)
       -apple-system,
       // Chrome >= 56 for OS X (San Francisco), Windows, Linux and Android

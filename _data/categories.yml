@@ -5,7 +5,7 @@
 -   name: Dados pluviais
     slug: dadospluviais
     icon: water
--   name: Data.rio
+-   name: Data Rio
     slug: datario
     icon: city
 -   name: Outros
