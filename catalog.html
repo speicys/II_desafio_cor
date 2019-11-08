@@ -17,7 +17,10 @@ scripts:
 <div class="container">
 
 
-  <h1 class="page-title centered">Catálogo de dados</h1>
+  <h1 class="page-title centered" style="color:#0e1b4d;margin-bottom:0px;">Catálogo de dados</h1><br>
+  <svg style="display:block;margin:auto;" width="45" height="25" >
+    <rect width="45" height="5" style="fill:#00bfc3;" />
+  </svg>
 
   <p class="lead">
     Esse é o inventário de dados abertos para o II Desafio COR, apresentando <span id="catalog-count">dezenas de</span>
@@ -40,7 +43,10 @@ scripts:
   <br />
 
   <div class="col-sm-3">
-    <h3 class="page-header">Categorias</h3>
+    <h3 style="color:#0e1b4d;margin-bottom:0px;">Categorias</h3><br>
+    <svg width="45" height="25">
+      <rect width="45" height="5" style="fill:#00bfc3;" />
+  </svg>
     <div class="list-group" id="filter-category">
     {% for category in site.data.categories %}
       <a href="{{ site.baseurl }}/catalog/index.html?category={{ category.slug }}" class="list-group-item" id="filter-category-{{ category.slug }}">
@@ -48,7 +54,11 @@ scripts:
       </a>
     {% endfor %}
     </div>
-    <h3 class="page-header">Tipos</h3>
+    <h3 style="color:#0e1b4d;margin-bottom:0px;">Tipos</h3><br>
+   <svg width="45" height="25">
+            <rect width="45" height="5" style="fill:#00bfc3;" />
+        </svg>
+
     <div class="list-group" id="filter-type">
         {% for filetype in site.data.filetypes %}
           <a href="{{ site.baseurl }}/catalog/index.html?type={{ filetype.name }}" class="list-group-item" id="filter-type-{{ filetype.name }}">

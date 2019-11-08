@@ -13,8 +13,10 @@ styles:
             <div class="title">
                 <!-- <h2 class="text-white lead"><em>The Harvard Open Data Project presents</em></h2> -->
 
-                <img style="height:100px;" src="{{ site.baseurl }}/img/C40_Cities_Climate_Leadership_Group_Logo.png"/>
+                <img style="height:80px;" src="{{ site.baseurl }}/img/logo_dcor.png"/>
+                <img style="height:80px;" src="{{ site.baseurl }}/img/labgovrio-topo-cor.png"/>
                 <h1 class="text-white"><b>II Desafio COR</b></h1>
+                <h1 style="color: #2cb6bc;"><b>SMART CITY SMART PEOPLE</b></h1>
             </div>
 
             <form action="{{ site.baseurl }}/catalog/index.html" method="GET">
@@ -34,7 +36,10 @@ styles:
 <br/>
 
 <div class="container">
-    <h2 class="page-header text-centered">Categorias</h2>
+        <h2 class="text-centered" style="color:#0e1b4d;margin-bottom:0px;">Categorias</h2>
+        <br><svg  style="display:block;margin:auto;" width="45" height="25">
+                <rect width="45" height="5" style="fill:#00bfc3;" />
+            </svg>
     <div class="row">
         {% for category in site.data.categories %}
         <div class="col-xs-6 col-sm-3">
