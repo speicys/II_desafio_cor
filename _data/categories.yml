@@ -8,7 +8,9 @@
 -   name: Data Rio
     slug: datario
     icon: city
+-   name: Transporte
+    slug: transporte
+    icon: bus 
 -   name: Outros
     slug: outros
-    icon: archive
-    
+    icon: archive     

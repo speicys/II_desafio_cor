@@ -24,7 +24,7 @@ url: "http://scipopulis.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+theme: 
 
 
 # libraries
