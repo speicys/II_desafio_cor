@@ -1,24 +1,10 @@
-- name: API
-  icon: tachometer-alt
-- name: Database
-  icon: database
-- name: CSV
+- name: csv
   icon: table
-- name: Excel
+- name: xlsx
   icon: file-excel
-- name: Graph
-  icon: chart-line
-- name: HTML
+- name: diversos
   icon: code
-- name: PDF
-  icon: file-pdf
-- name: Diversos
-  icon: code
-- name: MP4
-  icon: video
-- name: png
-  icon: image
 - name: txt
   icon: file-word
-- name: Shp
+- name: shp
   icon: square
